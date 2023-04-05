@@ -14,7 +14,7 @@ public class App {
         choices1.add("Duke");
         choices1.add("Oak");
         choices1.add("Gosling");
-        Question first = new Question(text1, choices1, "notOak");
+        Question first = new Question(text1, choices1, "Oak");
         quiz1.addQuestion(first);
 
         String text2 = "In which country was the Java language born?";
