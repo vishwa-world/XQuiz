@@ -9,9 +9,9 @@ public class Question{
     // TODO: Create the Question class constructor 
     // use the  signature :  public Question(String questionText, List<String> choices, String answer)
     // Include the following validations
-        // If QuestionText is not null or empty, then print “Question text cannot be null or empty!”
-        // If List of Choices is not null or EmptyList, then print “Choices cannot be null or empty!”
-        // If answer is not null or Empty, then print “Answer cannot be null or empty!”
+        // If QuestionText is null or empty, then print “Question text cannot be null or empty!”
+        // If List of Choices is null or EmptyList, then print “Choices cannot be null or empty!”
+        // If answer is null or Empty, then print “Answer cannot be null or empty!” 
         // If answer is not one of the choices in the List of choices, then print “Answer is not present among the choices!”
     // Note: The print statements should match exactly with the one specified above, since we have test cases designed on this
     // If the print statements do not match then the tests might fail, so be cautious

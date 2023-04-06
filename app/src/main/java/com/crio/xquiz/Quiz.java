@@ -8,7 +8,7 @@ public class Quiz{
     private int finalScore;
 
     // TODO: Implement Quiz class constructor : public Quiz(String quizName);
-        // Validate: If quizName is not null or empty, else print “Quiz Name cannot be null or empty!”.
+        // Validate: If quizName is null or empty, else print “Quiz Name cannot be null or empty!”.
         // Note: The statement to be printed should be exactly same.
 
     //TODO: Create the getter method : public String getQuizName(), which returns the quizname
@@ -18,8 +18,8 @@ public class Quiz{
     //TODO: Create the getter method : public int getFinalScore(), which returns the final score
 
     //TODO: Create addQuestion() method:  public void addQuestion(Question question)
-        // Validate: If question is not Null ,else print “Question cannot be null!”.
-        // If question is not null then add the question to list of questions
+        // Validate: If question is Null, print “Question cannot be null!”.
+         // If question is not null then add the question to list of questions
 
 
 
