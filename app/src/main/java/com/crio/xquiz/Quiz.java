@@ -8,7 +8,8 @@ public class Quiz{
     private int finalScore;
 
     // TODO: Implement Quiz class constructor : public Quiz(String quizName);
-        // Validate: If quizName is null or empty, else print “Quiz Name cannot be null or empty!”.
+        // Validate: If quizName is null or empty, print “Quiz Name cannot be null or empty!”
+        // else initialise the quizName, questions and finalScore
         // Note: The statement to be printed should be exactly same.
 
     //TODO: Create the getter method : public String getQuizName(), which returns the quizname
